@@ -1,0 +1,46 @@
+.register {
+  background: url(../images/bg2.png) no-repeat center top / cover;
+  height: 776px;
+  text-align: center;
+}
+
+.register img {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  width: 100%;
+  max-width: 752px;
+}
+
+.register p {
+  font-family: 'Oswald', sans-serif;
+  color: #E0E0E1;
+  font-size: 1.6em;
+  width: 70%;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin: 0 auto 2em;
+}
+
+.reg {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: #2ecc71;
+  border: 3px solid #2ecc71;
+  border-radius: 25px;
+  padding: 0.7em 3em;
+  font-weight: 700;
+}
+
+a.reg:hover {
+  color: #fff;
+  background: #2ecc71;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}

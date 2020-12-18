@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "normalize";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "blocks/header";
+@import "blocks/descriptions";
+@import "blocks/register";
+@import "blocks/testimonials";
+@import "blocks/slider";
+@import "blocks/footer";
+
+@import "media";
+@import "animate v4.1";
+@import "animate";
+
+//@import "modal";
+@import "modal-bootstrap";
+
+/*
+@import "blocks/fixed";
+@import "blocks/header";
+@import "blocks/advatages";
+@import "blocks/projects";
+@import "blocks/details";
+@import "blocks/list-of-works";
+@import "blocks/calculator";
+@import "blocks/calc";
+@import "blocks/contacts";
+@import "blocks/menu";
+@import "blocks/scroll-down";
+@import "blocks/main-menu";*/

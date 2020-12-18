@@ -1,0 +1,36 @@
+.descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1400px;
+}
+
+.descriptions img {
+  width: 100%;
+}
+
+.item {
+  max-width: 540px;
+  margin: 20px 0;
+  margin-bottom: 5em;
+}
+
+.item.text1 {
+  margin-top: 80px;
+}
+
+.item h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #222222;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  font-weight: normal;
+}
+
+.item p {
+  color: #222222;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  padding: 1em 0 0;
+}
